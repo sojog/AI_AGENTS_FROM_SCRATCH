@@ -3,7 +3,11 @@
 
 Acest proiect a fost actualizat pentru a folosi **Ollama** în loc de OpenAI/ChatGPT. Ollama permite rularea modelelor de limbaj local pe propriul tău calculator.
 
-## Instalare Ollama
+## Instalare Ollama - direct de pe site
+
+Vizitează website-ul https://ollama.com/ și apăsă butonul download.
+
+## Instalare Ollama - programatic
 
 ### macOS
 ```bash
@@ -28,12 +32,16 @@ După instalarea Ollama, trebuie să descarci un model. Codul folosește implici
 ollama pull gemma3:270m
 ```
 
+Modelele disponibile se găsesc la https://ollama.com/search
+
+
 ### Modele Alternative Recomandate
 
 - **gemma3:270m** (implicit) - Balansat, performanță bună
 - **gemma3:270m:1b** - Mai mic și mai rapid
 - **mistral** - Alternative excelent la llama
 - **phi3** - Model mic dar performant
+- **qwen3-coder** sau **qwen2.5-coder** - Focusat pe partea de cod
 
 Pentru a folosi un alt model:
 ```bash
@@ -53,6 +61,14 @@ Pentru a porni manual serverul (dacă este necesar):
 ```bash
 ollama serve
 ```
+
+## Instalare Python
+
+Mergeți la https://www.python.org/downloads/ - apăsați download.
+
+## Instalare Visual Studio Code
+
+Mergeți la https://code.visualstudio.com/ - apăsați download.
 
 ## Instalarea Dependențelor Python
 
