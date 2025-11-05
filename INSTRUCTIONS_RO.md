@@ -7,6 +7,8 @@ Acest proiect a fost actualizat pentru a folosi **Ollama** în loc de OpenAI/Cha
 
 Vizitează website-ul https://ollama.com/ și apăsă butonul download.
 
+![!\[image alt\] (Images/ollama.png)](https://github.com/sojog/AI_AGENTS_FROM_SCRATCH/blob/main/Images/ollama.png?raw=true)
+
 ## Instalare Ollama - programatic
 
 ### macOS
@@ -34,6 +36,7 @@ ollama pull gemma3:270m
 
 Modelele disponibile se găsesc la https://ollama.com/search
 
+![Images/oll](https://github.com/sojog/AI_AGENTS_FROM_SCRATCH/blob/main/Images/ollama_models.png?raw=true)
 
 ### Modele Alternative Recomandate
 
@@ -45,8 +48,10 @@ Modelele disponibile se găsesc la https://ollama.com/search
 
 Pentru a folosi un alt model:
 ```bash
-ollama pull mistral
+ollama run gemma3:270m
 ```
+
+![Images/oll](https://github.com/sojog/AI_AGENTS_FROM_SCRATCH/blob/main/Images/gemma.png?raw=true)
 
 ## Pornirea Serverului Ollama
 
@@ -66,9 +71,19 @@ ollama serve
 
 Mergeți la https://www.python.org/downloads/ - apăsați download.
 
+![Images/oll](https://github.com/sojog/AI_AGENTS_FROM_SCRATCH/blob/main/Images/install_python.png?raw=true)
+
+Dacă sunteți pe Windows adăugați în PATH
+
+![Images/oll](https://raw.githubusercontent.com/sojog/AI_AGENTS_FROM_SCRATCH/refs/heads/main/Images/install_python.avif)
+
+
+
 ## Instalare Visual Studio Code
 
 Mergeți la https://code.visualstudio.com/ - apăsați download.
+
+![Images/oll](https://github.com/sojog/AI_AGENTS_FROM_SCRATCH/blob/main/Images/visual_studio_code.png?raw=true)
 
 ## Instalarea Dependențelor Python
 
